@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom"; 
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 
 import Home from "../src/pages/Home";
 import About from "../src/pages/About";
@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <nav className="flex space-x-4 p-4 font-semibold">
+        <nav className="flex space-x-4 p-4 text-rose-500 font-semibold">
           <Link to="/" className="text-2xl">
             Home
           </Link>
